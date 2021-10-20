@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Dette gjør at nå man trykker på lenkene til navbar så skroller den ned */
 html{
     scroll-behavior: smooth;
 }
 /* Navbar */
+/* Dette customizer navbar */
 .navbar{
     display:flex;
     justify-content: center;
@@ -15,11 +17,13 @@ html{
     position: sticky;
     top: 0;
 }
+/* customizer ul navbar */
 .navbar ul{
     display: flex;
     list-style: none;
     margin: 20px 0px;
 }
+/* customizer ul li navbar */
 .navbar ul li{
     font-family: century;
     font-size: 1.1rem;
@@ -31,6 +35,7 @@ html{
     padding: 8px 25px;
     transition: all .5s ease;
 }
+/* hover */
 .navbar ul li a:hover{
     background-color: white;
     color: black;
@@ -113,6 +118,9 @@ html{
 #intro h2{
     font-size: 2rem;
     margin-bottom: 20px;
+}
+.about-chad{
+    max-width: 500px;
 }
 
 /* Projects Section */
