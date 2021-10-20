@@ -38,6 +38,8 @@ html{
 }
 
 /* Welcome Section */
+
+/*  */
 #Welcome {
     display: flex;
     flex-direction: column;
@@ -46,10 +48,14 @@ html{
     justify-content: center;
     align-items: center;
      color: white;
-}   
+} 
+
+#Welcome .main img{
+    box-shadow: 0 0 50px black;
+}
 .Main-body{
     background-image: url(../Images/nukacola.jpg);
-    background-size: cover;
+    background-size:cover;
 } 
 .main{
     display: flex;
@@ -95,8 +101,8 @@ html{
     display: flex;
 }
 #pic img{
-    width: 575px;
-    height: 400px;
+    width: 475px;
+    height: 300px;
 }
 #intro{
     display: flex;
@@ -110,6 +116,7 @@ html{
 }
 
 /* Projects Section */
+
 #projects{
     display: flex;
     flex-direction: column;
@@ -117,6 +124,15 @@ html{
     color: white;
     align-items: center;
     padding: 20px;
+}
+#projects .gallery img:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 70px black;
+}
+
+.trollface-bruh{
+    box-shadow: 0 0 100px black;
 }
 .gallery{
     display: flex;
@@ -132,11 +148,30 @@ html{
 
 /* Social Media Section */
 .main-footer{
-    margin: 0;
+    margin: 20px;
     padding: 0;
+    text-align: center;
 }
-   
+
+.main-footer .footer-nav{
+    text-align: center;
+}
+
+.main-footer .footer-nav li{
+    display: inline;
+}
     
+.Trollface{
+    position: absolute;
+    right: 130%;
+    filter: grayscale(100%)
+}
+
+/* Projects Tab */
+.project-tab{
+    background-image: url(../Images/nukacola.jpg);
+    background-size:cover;
+}
 
 
 
