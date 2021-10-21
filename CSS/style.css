@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Dette gjør at nå man trykker på lenkene til navbar så skroller den ned */
 html{
     scroll-behavior: smooth;
 }
 /* Navbar */
-/* Dette customizer navbar */
 .navbar{
     display:flex;
     justify-content: center;
@@ -17,13 +15,13 @@ html{
     position: sticky;
     top: 0;
 }
-/* customizer ul navbar */
+/* ul navbar */
 .navbar ul{
     display: flex;
     list-style: none;
     margin: 20px 0px;
 }
-/* customizer ul li navbar */
+/* ul li navbar */
 .navbar ul li{
     font-family: century;
     font-size: 1.1rem;
@@ -44,7 +42,6 @@ html{
 
 /* Welcome Section */
 
-/*  */
 #Welcome {
     display: flex;
     flex-direction: column;
@@ -172,7 +169,7 @@ html{
 .Trollface{
     position: absolute;
     right: 130%;
-    filter: grayscale(100%)
+    filter: grayscale(100%);    
 }
 
 /* Projects Tab */
